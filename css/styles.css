@@ -1,0 +1,32 @@
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, img, span, img, ol, ul, li, article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary, picture { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; }
+
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 100%; overflow-y: scroll; overflow-x: hidden; }
+
+body { margin: 0; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1; font-size: 16px; }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary, picture { display: block; }
+
+img { width: 100%; max-width: 100%; border: 0; }
+
+ol, ul { list-style: none; }
+
+a { text-decoration: none; }
+a:hover, a:active { outline: none; }
+a:link { -webkit-tap-highlight-color: #69f; }
+a:hover { color: #69f; }
+
+svg:not(:root) { overflow: hidden; }
+
+:focus { outline: 0; }
+
+::-moz-selection { background: #69f; color: #fff; text-shadow: none; }
+
+::selection { background: #69f; color: #fff; text-shadow: none; }
+
+.clearfix { zoom: 1; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+
+/*# sourceMappingURL=styles.css.map */
